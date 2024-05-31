@@ -1,0 +1,171 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDE547D72C0A3CC40046C3DC /* Iridescent.metal in Sources */ = {isa = PBXBuildFile; fileRef = CDE547D62C0A3CC40046C3DC /* Iridescent.metal */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CDE547D32C0A3CC40046C3DC /* Iridescent.metallib */ = {isa = PBXFileReference; explicitFileType = "archive.metal-library"; includeInIndex = 0; path = Iridescent.metallib; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE547D62C0A3CC40046C3DC /* Iridescent.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Iridescent.metal; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		CDE547CC2C0A3CC40046C3DC = {
+			isa = PBXGroup;
+			children = (
+				CDE547D52C0A3CC40046C3DC /* Iridescent */,
+				CDE547D42C0A3CC40046C3DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDE547D42C0A3CC40046C3DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDE547D32C0A3CC40046C3DC /* Iridescent.metallib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDE547D52C0A3CC40046C3DC /* Iridescent */ = {
+			isa = PBXGroup;
+			children = (
+				CDE547D62C0A3CC40046C3DC /* Iridescent.metal */,
+			);
+			path = Iridescent;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDE547D22C0A3CC40046C3DC /* Iridescent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE547DA2C0A3CC40046C3DC /* Build configuration list for PBXNativeTarget "Iridescent" */;
+			buildPhases = (
+				CDE547D12C0A3CC40046C3DC /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Iridescent;
+			productName = Iridescent;
+			productReference = CDE547D32C0A3CC40046C3DC /* Iridescent.metallib */;
+			productType = "com.apple.product-type.metal-library";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDE547CD2C0A3CC40046C3DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CDE547D22C0A3CC40046C3DC = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = CDE547D02C0A3CC40046C3DC /* Build configuration list for PBXProject "Iridescent" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDE547CC2C0A3CC40046C3DC;
+			productRefGroup = CDE547D42C0A3CC40046C3DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDE547D22C0A3CC40046C3DC /* Iridescent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDE547D12C0A3CC40046C3DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE547D72C0A3CC40046C3DC /* Iridescent.metal in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CDE547D82C0A3CC40046C3DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CDE547D92C0A3CC40046C3DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CDE547DB2C0A3CC40046C3DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HNA3JW5W4B;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VERSIONING_SYSTEM = "";
+			};
+			name = Debug;
+		};
+		CDE547DC2C0A3CC40046C3DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HNA3JW5W4B;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VERSIONING_SYSTEM = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDE547D02C0A3CC40046C3DC /* Build configuration list for PBXProject "Iridescent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE547D82C0A3CC40046C3DC /* Debug */,
+				CDE547D92C0A3CC40046C3DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDE547DA2C0A3CC40046C3DC /* Build configuration list for PBXNativeTarget "Iridescent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE547DB2C0A3CC40046C3DC /* Debug */,
+				CDE547DC2C0A3CC40046C3DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDE547CD2C0A3CC40046C3DC /* Project object */;
+}
