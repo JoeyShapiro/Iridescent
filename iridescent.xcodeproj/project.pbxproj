@@ -16,9 +16,6 @@
 		3A1F1B441F033EF3001622B3 /* AAPLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACD21341EAE60D2000D1DED /* AAPLAppDelegate.m */; };
 		3A3532941E99974500C194AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3532931E99974500C194AD /* main.m */; };
 		3A35329D1E99974500C194AD /* AAPLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A35329C1E99974500C194AD /* AAPLViewController.m */; };
-		3A3532A01E99974500C194AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A35329E1E99974500C194AD /* Main.storyboard */; };
-		3A3532A31E99974500C194AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A3532A11E99974500C194AD /* LaunchScreen.storyboard */; };
-		3A3532B91E99974500C194AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A3532B71E99974500C194AD /* Main.storyboard */; };
 		3A3532CC1E99974500C194AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A3532CA1E99974500C194AD /* Main.storyboard */; };
 		3A3532CE1E99974500C194AD /* AAPLRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3532851E99974500C194AD /* AAPLRenderer.m */; };
 		3A3532CF1E99974500C194AD /* AAPLRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3532851E99974500C194AD /* AAPLRenderer.m */; };
@@ -40,12 +37,7 @@
 		3A3532931E99974500C194AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3A35329B1E99974500C194AD /* AAPLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLViewController.h; sourceTree = "<group>"; };
 		3A35329C1E99974500C194AD /* AAPLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLViewController.m; sourceTree = "<group>"; };
-		3A35329F1E99974500C194AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3A3532A21E99974500C194AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3A3532A41E99974500C194AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A3532A91E99974500C194AD /* HelloTriangle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloTriangle.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A3532B81E99974500C194AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3A3532BA1E99974500C194AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A3532BF1E99974500C194AD /* HelloTriangle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloTriangle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A3532CB1E99974500C194AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A3532CD1E99974500C194AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -82,16 +74,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3A1F1B351F0336A8001622B3 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3A35329E1E99974500C194AD /* Main.storyboard */,
-				3A3532A11E99974500C194AD /* LaunchScreen.storyboard */,
-				3A3532A41E99974500C194AD /* Info.plist */,
-			);
-			path = iOS;
-			sourceTree = "<group>";
-		};
 		3A1F1B361F0336DB001622B3 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,15 +81,6 @@
 				3A3532CD1E99974500C194AD /* Info.plist */,
 			);
 			path = macOS;
-			sourceTree = "<group>";
-		};
-		3A1F1B371F0336F4001622B3 /* tvOS */ = {
-			isa = PBXGroup;
-			children = (
-				3A3532B71E99974500C194AD /* Main.storyboard */,
-				3A3532BA1E99974500C194AD /* Info.plist */,
-			);
-			path = tvOS;
 			sourceTree = "<group>";
 		};
 		3A35327E1E99974500C194AD = {
@@ -152,8 +125,6 @@
 				3A35329C1E99974500C194AD /* AAPLViewController.m */,
 				3A3532931E99974500C194AD /* main.m */,
 				3A1F1B361F0336DB001622B3 /* macOS */,
-				3A1F1B371F0336F4001622B3 /* tvOS */,
-				3A1F1B351F0336A8001622B3 /* iOS */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -212,9 +183,9 @@
 			productReference = 3A3532A91E99974500C194AD /* HelloTriangle.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3A3532BE1E99974500C194AD /* HelloTriangle-macOS */ = {
+		3A3532BE1E99974500C194AD /* Iridescent-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3A3532E81E99974500C194AD /* Build configuration list for PBXNativeTarget "HelloTriangle-macOS" */;
+			buildConfigurationList = 3A3532E81E99974500C194AD /* Build configuration list for PBXNativeTarget "Iridescent-macOS" */;
 			buildPhases = (
 				3A3532BB1E99974500C194AD /* Sources */,
 				3A3532BC1E99974500C194AD /* Frameworks */,
@@ -224,7 +195,7 @@
 			);
 			dependencies = (
 			);
-			name = "HelloTriangle-macOS";
+			name = "Iridescent-macOS";
 			productName = macOS;
 			productReference = 3A3532BF1E99974500C194AD /* HelloTriangle.app */;
 			productType = "com.apple.product-type.application";
@@ -266,7 +237,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3A3532BE1E99974500C194AD /* HelloTriangle-macOS */,
+				3A3532BE1E99974500C194AD /* Iridescent-macOS */,
 				3A35328E1E99974500C194AD /* HelloTriangle-iOS */,
 				3A3532A81E99974500C194AD /* HelloTriangle-tvOS */,
 			);
@@ -278,8 +249,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A3532A01E99974500C194AD /* Main.storyboard in Resources */,
-				3A3532A31E99974500C194AD /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +256,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A3532B91E99974500C194AD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,30 +308,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3A35329E1E99974500C194AD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3A35329F1E99974500C194AD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3A3532A11E99974500C194AD /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3A3532A21E99974500C194AD /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		3A3532B71E99974500C194AD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3A3532B81E99974500C194AD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3A3532CA1E99974500C194AD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -660,7 +604,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3A3532E81E99974500C194AD /* Build configuration list for PBXNativeTarget "HelloTriangle-macOS" */ = {
+		3A3532E81E99974500C194AD /* Build configuration list for PBXNativeTarget "Iridescent-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3A3532E91E99974500C194AD /* Debug */,
